@@ -25,7 +25,7 @@ interface ChatItemProps {
   member: Member & {
     profile: Profile;
   };
-  timestap: string;
+  timestamp: string;
   fileUrl: string | null;
   deleted: boolean;
   currentMember: Member;
@@ -54,7 +54,7 @@ export const ChatItem = ({
   member,
   socketQuery,
   socketUrl,
-  timestap,
+  timestamp,
 }: ChatItemProps) => {
   const [isEditing, setIsEditing] = useState(false);
   const { onOpen } = useModal();
@@ -139,7 +139,7 @@ export const ChatItem = ({
               </ActionTooltip>
             </div>
             <span className='text-xs text-zinc-500 dark:text-zinc-400'>
-              {timestap}
+              {timestamp}
             </span>
           </div>
           {isImage && (
