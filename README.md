@@ -55,7 +55,7 @@ Después del símbolo =, debes agregar lo valores de tus variables de entorno. A
 | Variable de entorno | Ejemplo | Descripcion |
 | --- | --- | ---|
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= | API-Key-Clerk | API Key que nos proporciona [Clerk](https://clerk.com/)
-CLERK_SECRET_KEY= | Secret-Cloudinary | Secret que nos proporciona [Clerk](https://clerk.com/)
+CLERK_SECRET_KEY= | Secret-Clerk | Secret que nos proporciona [Clerk](https://clerk.com/)
 NEXT_PUBLIC_CLERK_SIGN_IN_URL= | /sign-in | Nombre de la ruta en la que quieres iniciar sesion
 NEXT_PUBLIC_CLERK_SIGN_UP_URL= | /sign-up | Nombre de la ruta en la que quieres crear una cuenta
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL= | / | Nombre de la ruta a la que quieres ser redirigido despues de iniciar sesion
