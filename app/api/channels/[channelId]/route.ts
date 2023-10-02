@@ -3,6 +3,7 @@ import { MemberRole } from '@prisma/client';
 
 import { currentProfile } from '@/lib/current-profile';
 import { db } from '@/lib/db';
+export const dynamic = 'force-static';
 
 export async function DELETE(
   req: Request,

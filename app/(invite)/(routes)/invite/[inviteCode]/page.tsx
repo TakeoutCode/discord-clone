@@ -4,6 +4,7 @@ import { currentProfile } from '@/lib/current-profile';
 import { redirect } from 'next/navigation';
 import { db } from '@/lib/db';
 
+export const dynamic = 'force-static';
 interface InviteCodePageProps {
   params: {
     inviteCode: string;
